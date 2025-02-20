@@ -75,6 +75,33 @@ section {
     padding: 5rem 0;
 }
 
+/* Animation */
+@keyframes zoomAnimation {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1.25) rotate(45deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Animation */
+
 /* Lenis */
 html.lenis {
     height: auto;
@@ -239,11 +266,13 @@ body.loading {
     color: var(--black);
     font-size: 3.5rem;
     font-weight: 600;
+    text-transform: uppercase;
     font-family: var(--bebas-font);
     letter-spacing: 1px;
 }
 
 .heading .char {
+    font-family: inherit;
     display: inline !important;
 }
 
@@ -385,6 +414,7 @@ body.loading {
 .banner .shape-img img {
     top: 10rem;
     left: 10rem;
+    animation: zoomAnimation 2s linear infinite;
 }
 
 /* Banner End */
@@ -393,6 +423,7 @@ body.loading {
 .categories .shape-img img {
     top: 1rem;
     left: 7rem;
+    animation: rotateAnimation 5s linear infinite;
 }
 
 .categories-card {
@@ -450,6 +481,7 @@ body.loading {
 .products .shape-img img {
     bottom: 5rem;
     right: 5rem;
+    animation: zoomAnimation 2s linear infinite;
 }
 
 .products-card__img {
@@ -530,6 +562,7 @@ body.loading {
 /* BestSeller Start */
 .products--bestseller {
     background: unset;
+    overflow: hidden;
 }
 
 .products--bestseller .shape-img img:nth-child(1) {
@@ -545,6 +578,7 @@ body.loading {
 .products--bestseller .shape-img img:nth-child(3) {
     top: 1rem;
     right: 7rem;
+    animation: rotateAnimation 5s linear infinite;
 }
 
 .products--bestseller .products-card__content :is(h4 span, p, .products-card__contentReview span) {

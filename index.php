@@ -1,5 +1,19 @@
 <?php include "include/header.php" ?>
 
+<!-- Preloader -->
+<div class="preLoader">
+    <div class="line"></div>
+    <div class="counter">
+        <span>0</span>
+    </div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+
 <section class="banner">
     <figure class="shape-img">
         <img src="images/banner-shape.png" alt="image" class="img-fluid">
