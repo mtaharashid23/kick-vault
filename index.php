@@ -15,15 +15,10 @@
 
 
 <section class="banner">
+    <video src="images/banner.mp4" playsinline muted autoplay loop></video>
     <figure class="shape-img">
         <img src="images/banner-shape.png" alt="image" class="img-fluid">
     </figure>
-    <div class="container">
-        <div class="banner-content text-center">
-            <h1>unstoppable style <span>for every move</span></h1>
-            <a href="" class="themeBtn themeBtn--dark mx-auto">explore now <i class="fal fa-long-arrow-right"></i></a>
-        </div>
-    </div>
 </section>
 
 <section class="categories">
@@ -76,17 +71,6 @@
                         <h4>
                             <span>Product Name</span><span>RS 6,500</span>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consect tur adipiscing elit, sed do</p>
-                        <div class="products-card__contentReview">
-                            <span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>1k+ Reviews</span>
-                        </div>
                         <a href="" class="themeBtn themeBtn--border w-100">
                             <i class="far fa-shopping-bag"></i> Add To Cart
                         </a>
@@ -103,17 +87,6 @@
                         <h4>
                             <span>Product Name</span><span>RS 6,500</span>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consect tur adipiscing elit, sed do</p>
-                        <div class="products-card__contentReview">
-                            <span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>1k+ Reviews</span>
-                        </div>
                         <a href="" class="themeBtn themeBtn--border w-100">
                             <i class="far fa-shopping-bag"></i> Add To Cart
                         </a>
@@ -130,17 +103,6 @@
                         <h4>
                             <span>Product Name</span><span>RS 6,500</span>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consect tur adipiscing elit, sed do</p>
-                        <div class="products-card__contentReview">
-                            <span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>1k+ Reviews</span>
-                        </div>
                         <a href="" class="themeBtn themeBtn--border w-100">
                             <i class="far fa-shopping-bag"></i> Add To Cart
                         </a>
@@ -157,17 +119,6 @@
                         <h4>
                             <span>Product Name</span><span>RS 6,500</span>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consect tur adipiscing elit, sed do</p>
-                        <div class="products-card__contentReview">
-                            <span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>1k+ Reviews</span>
-                        </div>
                         <a href="" class="themeBtn themeBtn--border w-100">
                             <i class="far fa-shopping-bag"></i> Add To Cart
                         </a>
@@ -198,17 +149,6 @@
                         <h4>
                             <span>Product Name</span><span>RS 6,500</span>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consect tur adipiscing elit, sed do</p>
-                        <div class="products-card__contentReview">
-                            <span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>1k+ Reviews</span>
-                        </div>
                         <a href="" class="themeBtn themeBtn--borderDark w-100">
                             <i class="far fa-shopping-bag"></i> Add To Cart
                         </a>
@@ -225,17 +165,6 @@
                         <h4>
                             <span>Product Name</span><span>RS 6,500</span>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consect tur adipiscing elit, sed do</p>
-                        <div class="products-card__contentReview">
-                            <span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>1k+ Reviews</span>
-                        </div>
                         <a href="" class="themeBtn themeBtn--borderDark w-100">
                             <i class="far fa-shopping-bag"></i> Add To Cart
                         </a>
@@ -252,17 +181,6 @@
                         <h4>
                             <span>Product Name</span><span>RS 6,500</span>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consect tur adipiscing elit, sed do</p>
-                        <div class="products-card__contentReview">
-                            <span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>1k+ Reviews</span>
-                        </div>
                         <a href="" class="themeBtn themeBtn--borderDark w-100">
                             <i class="far fa-shopping-bag"></i> Add To Cart
                         </a>
@@ -279,17 +197,6 @@
                         <h4>
                             <span>Product Name</span><span>RS 6,500</span>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consect tur adipiscing elit, sed do</p>
-                        <div class="products-card__contentReview">
-                            <span>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>1k+ Reviews</span>
-                        </div>
                         <a href="" class="themeBtn themeBtn--borderDark w-100">
                             <i class="far fa-shopping-bag"></i> Add To Cart
                         </a>

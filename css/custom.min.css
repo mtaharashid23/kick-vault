@@ -2,14 +2,15 @@
 /* Icons */
 @import url("https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css");
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/ethnocentric');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
     --white: #fff;
     --black: #000;
     --primary: #d72f12;
     --gray: #b7b7b7;
-    --bebas-font: "Bebas Neue", serif;
+    --ethnocentric-font: 'Ethnocentric Rg', sans-serif;
     --outfit-font: "Outfit", serif;
 }
 
@@ -60,7 +61,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: var(--bebas-font);
+    font-family: var(--ethnocentric-font);
 }
 
 p {
@@ -267,7 +268,6 @@ body.loading {
     font-size: 3.5rem;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: var(--bebas-font);
     letter-spacing: 1px;
 }
 
@@ -283,42 +283,15 @@ body.loading {
 
 /* Header Start */
 .header {
-    border-bottom: 5px solid var(--white);
-}
-
-.header-top {
-    background: var(--primary);
-    text-align: center;
-    padding: 0.5rem 0;
-}
-
-.header-top p {
-    color: var(--white);
-    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .header-main {
     padding: 1rem 0;
-}
-
-.header-main__form {
-    display: flex;
-    align-items: center;
-    border: unset;
-    border-bottom: 1px solid #00000090;
-}
-
-.header-main__form input {
-    background: transparent;
-    border: unset;
-    outline: unset;
-    padding: 0.25rem;
-}
-
-.header-main__form button {
-    background: unset;
-    border: unset;
-    padding: 0.25rem;
 }
 
 .header-main__logo {
@@ -335,51 +308,12 @@ body.loading {
 }
 
 .header-main__links li a {
+    font-size: 1.5rem;
     color: var(--black);
     position: relative;
 }
 
-.header-main__links li a span {
-    width: 20px;
-    aspect-ratio: 1;
-    font-size: 0.75rem;
-    background: var(--black);
-    color: var(--white);
-    border-radius: 100%;
-    display: grid;
-    place-items: center;
-    position: absolute;
-    top: -0.5rem;
-    right: -1rem;
-}
-
 .header-main__links li a:hover {
-    color: var(--primary);
-}
-
-.header-nav {
-    background: var(--black);
-    display: block !important;
-    padding: 0.75rem 0;
-}
-
-.header-nav__list {
-    flex-direction: row;
-    justify-content: center;
-}
-
-.header-nav__list li a {
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--white);
-    padding: 0 1.5rem !important;
-}
-
-.header-nav__list li:not(:last-child) a {
-    border-right: 1px solid var(--white);
-}
-
-.header-nav__list li a:hover {
     color: var(--primary);
 }
 
@@ -387,28 +321,17 @@ body.loading {
 
 /* Banner Start */
 .banner {
-    background: url(../images/banner.png) no-repeat center/cover;
-    height: 700px;
+    /* background: url(../images/banner.png) no-repeat center/cover; */
+    height: 1080px;
     display: flex;
     align-items: center;
     padding: 0;
 }
 
-.banner-content h1 {
-    font-size: 5rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: var(--white);
-    line-height: 1;
-    letter-spacing: 2px;
-    font-style: italic;
-    margin-bottom: 1.5rem;
-}
-
-.banner-content h1 span {
-    font-size: 3rem;
-    font-weight: 300;
-    display: block;
+.banner>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .banner .shape-img img {
@@ -457,7 +380,7 @@ body.loading {
 }
 
 .categories-card__content .title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
     color: var(--white);
@@ -509,15 +432,18 @@ body.loading {
 
 .products-card__content h4 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1rem 0 0.5rem;
+    flex-direction: column;
+    margin: 1rem 0 1rem;
 }
 
 .products-card__content h4 span {
     font-size: 1.5rem;
     font-family: inherit;
     color: var(--white);
+}
+
+.products-card__content h4 span:nth-child(2) {
+    font-size: 1.125rem;
 }
 
 .products-card__content p {
