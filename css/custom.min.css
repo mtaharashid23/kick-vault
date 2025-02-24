@@ -317,11 +317,48 @@ body.loading {
     color: var(--primary);
 }
 
+.header-main__nav {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: var(--black);
+    padding: 2rem;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: all 300ms ease-in-out;
+}
+
+.header-main__nav.active {
+    transform: translateX(0);
+}
+
+.header-main__nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-main__nav ul li a {
+    font-size: 1.125rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.header-main__nav .closeBtn {
+    color: var(--white);
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+}
+
 /* Header End */
 
 /* Banner Start */
 .banner {
-    /* background: url(../images/banner.png) no-repeat center/cover; */
     height: 1080px;
     display: flex;
     align-items: center;
@@ -409,7 +446,7 @@ body.loading {
 
 .products-card__img {
     width: 100%;
-    height: 320px;
+    height: 350px;
     position: relative;
     background: #f7f7f7;
     border: 1px solid var(--black);
@@ -538,7 +575,7 @@ body.loading {
 /* Shop Start */
 .shop-img {
     width: 100%;
-    height: 420px;
+    height: 400px;
     position: relative;
     overflow: hidden;
     margin-bottom: 2rem;
@@ -571,12 +608,19 @@ body.loading {
     transition: all 300ms ease-in-out;
 }
 
-.shop-img .themeBtn {
+.shop-img .shop-img-content {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+.shop-img .shop-img-content h4 {
+    font-size: 2rem;
+    color: #fff;
 }
 
 .shop-img:hover::before {
@@ -591,33 +635,21 @@ body.loading {
     transform: scale(1.1);
 }
 
-.shop-img:hover .themeBtn {
-    bottom: 40%;
+.shop-img:hover .shop-img-content {
+    bottom: 50%;
+    transform: translate(-50%, 50%);
 }
 
 /* Shop End */
 
 /* Shoes Detail Start */
 .shoes-detail {
+    height: 700px;
+    background: url(../images/shoes-detail-bg.jpg) no-repeat center/cover;
     position: relative;
     display: flex;
     align-items: center;
     padding: 0;
-    background: #f8f8f7;
-}
-
-.shoes-detailImg {
-    width: 100%;
-    height: 405px;
-}
-
-.shoes-detailContent {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    right: 2rem;
-    text-align: right;
-    transform: translateY(-50%);
 }
 
 .shoes-detailContent .title {
@@ -628,42 +660,11 @@ body.loading {
 
 .shoes-detailContent .title span {
     font-family: inherit;
-    color: var(--primary);
+    color: var(--white);
 }
 
 .shoes-detailContent .title span span {
     color: var(--black);
-}
-
-.shoes-detailText {
-    width: min-content;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: normal;
-    color: var(--black);
-    position: absolute;
-}
-
-.shoes-detailText:nth-child(2) {
-    top: 7rem;
-    left: 36rem;
-}
-
-.shoes-detailText:nth-child(3) {
-    top: 13.5rem;
-    left: 36.75rem;
-}
-
-.shoes-detailText:nth-child(4) {
-    width: max-content;
-    top: 21rem;
-    left: 44rem;
-}
-
-.shoes-detailText:nth-child(5) {
-    width: max-content;
-    top: 17rem;
-    left: 73rem;
 }
 
 /* Shoes Detail End */

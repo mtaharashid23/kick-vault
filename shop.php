@@ -1,24 +1,12 @@
 <?php include "include/header.php" ?>
 
-<!-- Preloader -->
-<div class="preLoader">
-    <div class="line"></div>
-    <div class="counter">
-        <span>0</span>
+<section class="pagetitle">
+    <div class="container">
+        <div class="pagetitle-content">
+            <h2>shop</h2>
+            <a href="" class="themeBtn"></a>
+        </div>
     </div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-</div>
-
-
-<section class="banner">
-    <video src="images/banner.mp4" playsinline muted autoplay loop></video>
-    <figure class="shape-img">
-        <img src="images/banner-shape.png" alt="image" class="img-fluid">
-    </figure>
 </section>
 
 <section class="categories">

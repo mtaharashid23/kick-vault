@@ -22,8 +22,17 @@
                     <img src="images/logo.png" alt="image" class="img-fluid">
                 </a>
                 <ul class="header-main__links">
-                    <li><a href=""><i class="fas fa-bars"></i></a></li>
+                    <li><a href="" class="openNav"><i class="fas fa-bars"></i></a></li>
                 </ul>
             </div>
         </nav>
+        <div class="header-main__nav">
+            <a href="#" class="closeBtn"><i class="fas fa-times"></i></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
     </header>
