@@ -325,23 +325,4 @@
     </div>
 </section>
 
-<section class="shoes-detail">
-    <div class="container">
-        <div class="shoes-detailContent">
-            <div class="row">
-                <div class="col-md-5">
-                    <h4 class="title">
-                        kickvault
-                        <span class="d-block">
-                            PAIN RELIEF TECHNOLOGY
-                            <span>STARTING FROM</span>
-                        </span>
-                    </h4>
-                    <a href="#" class="themeBtn">shop now</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <?php include "include/footer.php" ?>

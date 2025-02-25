@@ -15,7 +15,7 @@
     <div class="mouse-cursor cursor-inner"></div>
 
     <!-- HEADER -->
-    <header class="header">
+    <header class="header <?= isset($themeLight) ? $themeLight : '' ?>">
         <nav class="header-main navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand header-main__logo" href="index.php">

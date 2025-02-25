@@ -248,6 +248,7 @@ body.loading {
 .themeBtn:hover {
     background: var(--white);
     color: var(--black);
+    border-color: var(--primary);
 }
 
 .themeBtn--border:hover {
@@ -267,6 +268,14 @@ body.loading {
     color: var(--black);
     font-size: 3.5rem;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.subHeading {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -353,6 +362,14 @@ body.loading {
     position: absolute;
     top: 1rem;
     right: 1.25rem;
+}
+
+.themeLight .header-main__logo img {
+    filter: brightness(0) invert(1);
+}
+
+.themeLight .openNav {
+    color: var(--white);
 }
 
 /* Header End */
@@ -723,3 +740,87 @@ body.loading {
 }
 
 /* Footer End */
+
+/* Pagetitle Start */
+.pagetitle {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+}
+
+.pagetitle>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pagetitle-content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+}
+
+/* Pagetitle End */
+
+/* About Us Page */
+.about-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* About Us Page */
+
+/* Contact Us Page */
+.contact-form :is(input, textarea) {
+    outline: unset !important;
+    box-shadow: unset !important;
+    background: #f4f5f8 !important;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #f4f5f8;
+    padding: 1.75rem 0.75rem;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.contact-contentIcon {
+    width: 80px;
+    aspect-ratio: 1;
+    background-color: var(--primary);
+    display: grid;
+    place-content: center;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.contact-content h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 19px;
+    text-transform: math-auto;
+    color: #000;
+}
+
+.contact-content span {
+    font-size: 1rem;
+    line-height: 34px;
+    display: block;
+    color: #707173;
+    transition: all 300ms ease-in-out;
+}
+
+.contact-content:hover span {
+    color: var(--primary);
+}
+
+/* Contact Us Page */

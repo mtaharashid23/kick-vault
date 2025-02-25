@@ -1,3 +1,22 @@
+<section class="shoes-detail">
+    <div class="container">
+        <div class="shoes-detailContent">
+            <div class="row">
+                <div class="col-md-5">
+                    <h4 class="title">
+                        kickvault
+                        <span class="d-block">
+                            PAIN RELIEF TECHNOLOGY
+                            <span>STARTING FROM</span>
+                        </span>
+                    </h4>
+                    <a href="#" class="themeBtn">shop now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- FOOTER -->
 <footer class="footer">
     <div class="container">
@@ -6,7 +25,7 @@
                 <div class="footer-content">
                     <h4>Quick Links</h4>
                     <ul class="footer-contentLinks">
-                        <li><a href="">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a href="">Our Products</a></li>
                         <li><a href="">Best Seller</a></li>
@@ -19,7 +38,7 @@
             </div>
             <div class="col-md-3">
                 <div class="footer-content">
-                    <h4>Quick Links</h4>
+                    <h4>Other Links</h4>
                     <ul class="footer-contentLinks">
                         <li><a href="">My Account</a></li>
                         <li><a href="">Rewards Loyalty Programme</a></li>
@@ -33,7 +52,7 @@
             </div>
             <div class="col-md-3">
                 <div class="footer-content">
-                    <h4>Quick Links</h4>
+                    <h4>Information</h4>
                     <ul class="footer-contentLinks">
                         <li><a href="">Delivery Information</a></li>
                         <li><a href="">Returns & Refunds</a></li>
@@ -43,7 +62,7 @@
             </div>
             <div class="col-md-3">
                 <div class="footer-content">
-                    <h4>Quick Links</h4>
+                    <h4>Contact</h4>
                     <ul class="footer-contentLinks">
                         <li><a href="">Contact Us</a></li>
                         <li><a href="">FAQs</a></li>
@@ -56,7 +75,10 @@
             </div>
         </div>
         <div class="copyRight">
-            <p>Copyright © 2025 <a href="" class="copyRight-name">kickvault</a> All Right Reserved | <a href="">Privacy Policy</a> | <a href="">Terms & Conditions</a></p>
+            <p>Copyright © 2025
+                <a href="index.php" class="copyRight-name">kickvault</a> All Right Reserved |
+                <a href="privacy-policy.php">Privacy Policy</a> | <a href="terms-&-conditions.php">Terms & Conditions</a>
+            </p>
         </div>
     </div>
 </footer>
