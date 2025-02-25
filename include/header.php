@@ -29,10 +29,10 @@
         <div class="header-main__nav">
             <a href="#" class="closeBtn"><i class="fas fa-times"></i></a>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about-us.php">About Us</a></li>
                 <li><a href="">Shop</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="contact-us.php">Contact Us</a></li>
             </ul>
         </div>
     </header>
